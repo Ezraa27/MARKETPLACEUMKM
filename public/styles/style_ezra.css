@@ -1,8 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
 h1 {
     color: red;
 }
 
 img {
-    width: 200px;
-    margin-right: 10px;
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
 }
