@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BarangController;
+use App\Http\Controllers\ProductController;
 
 //Route::get('/', function () { 
 //  return view('welcome'); 
@@ -14,3 +15,4 @@ Route::get('/barang', [BarangController::class, 'tampilkan']);
 Route::get('/ezra', function () {
   return view('ezra');
 });
+Route::get('/list-product', [ProductController::class, 'index']);
